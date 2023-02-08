@@ -36,8 +36,7 @@ def imput_train(t_latest, t0, pv_ids, sim_name, dump=False):
 
 
 def get_holidays(year):
-    """
-    Get holidays dates for specific year
+    """Get holidays dates for specific year
 
     Parameters
     ----------

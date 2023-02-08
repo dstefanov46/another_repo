@@ -13,8 +13,6 @@ An example function ``pv_forecaster_example.imput_train()`` function:
 Modules
 -------
 
-.. autofunction:: pv_forecaster_example.get_holidays
-
 
 .. _run:
 
