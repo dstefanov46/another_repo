@@ -5,13 +5,15 @@ An example function ``pv_forecaster_example.imput_train()`` function:
 
 .. autofunction:: pv_forecaster_example.imput_train
 
+.. autofunction:: pv_forecaster_example.get_holidays
+
 
 .. _modules:
 
 Modules
 -------
 
-.. autofunction:: forecasting_helper_func.get_holidays
+
 
 
 .. _run:
