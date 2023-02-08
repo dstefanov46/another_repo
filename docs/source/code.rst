@@ -13,9 +13,11 @@ An example function ``pv_forecaster_example.imput_train()`` function:
 Modules
 -------
 
+.. autofunction:: modules.forecasting_helper_func.get_holidays
+
 Forecasting Helper Functions
 ~~~~~~~~~~~
-.. autofunction:: forecasting_helper_func.get_holidays
+
 
 
 .. _run:
