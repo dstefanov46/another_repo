@@ -15,7 +15,7 @@ Modules
 
 Forecasting Helper Functions
 ~~~~~~~~~~~
-.. autofunction:: pv_forecaster_example.get_holidays
+.. autofunction:: forecasting_helper_func.get_holidays
 
 
 .. _run:

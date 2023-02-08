@@ -1,21 +1,3 @@
-import pandas as pd
-import numpy as np
-import os
-
-import tensorflow as tf
-from tensorflow.keras.models import Sequential, Model, model_from_json, load_model
-from tensorflow.keras.layers import *
-from tensorflow.keras.optimizers import SGD, RMSprop, Adam
-from tensorflow.keras.callbacks import *
-from tensorflow.keras.regularizers import *
-from tensorflow.keras.constraints import max_norm
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.initializers import he_normal, glorot_normal
-
-cwd = os.path.dirname(os.getcwd())
-folder_gen = cwd +  "/generated_data/"
-
-
 def get_interactions(s, dummies, poly_degree=1):
     if s.name == None: s.name = "_"
     s1 = dummies.apply(lambda x: x * s).rename("{}".format(s.name + "_{}").format, axis=1)
