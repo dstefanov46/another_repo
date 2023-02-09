@@ -41,19 +41,14 @@ def read_sql(server, database, username, password, query):
     Parameters
     ----------
     server : str
-    
     database : str
-    
     username : str
-    
     password : str
-    
     query : str
 
     Returns
     -------
     df : pd.DataFrame
-              
     """
     eng_str = fr'mssql+pymssql://{username}:{password}@{server}/{database}?charset=CP1250'
     engine = create_engine(eng_str)
