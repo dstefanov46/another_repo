@@ -6,69 +6,67 @@ Code
 Modules
 -------
 
-Database Utility Functions
+Database Utility Functions (module_name: DatabaseUtils)
 ~~~~~~
 
-.. currentmodule:: forecasting_helper_func
-.. autofunction:: get_season
-.. autofunction:: read_sql
-.. autofunction:: get_rt_pv_data
-.. autofunction:: pv_forecaster_example.get_pv_meta
-.. autofunction:: pv_forecaster_example.get_weather_history
-.. autofunction:: pv_forecaster_example.check_weather_forecast
-.. autofunction:: pv_forecaster_example.get_weather_forecast_all_raw
-.. autofunction:: pv_forecaster_example.get_weather_forecast_all
-.. autofunction:: pv_forecaster_example.get_ss_agg
-.. autofunction:: pv_forecaster_example.get_slo_agg
-.. autofunction:: pv_forecaster_example.write_rt_pv_data
-.. autofunction:: pv_forecaster_example.write_rt_pv_forecast
-.. autofunction:: pv_forecaster_example.write_ss_agg_forecast
-.. autofunction:: pv_forecaster_example.write_slo_agg_forecast
-.. autofunction:: pv_forecaster_example.write_ss_agg_clean
-.. autofunction:: pv_forecaster_example.write_slo_agg_clean
-.. autofunction:: pv_forecaster_example.write_wforecast_evaluation
-.. autofunction:: pv_forecaster_example.get_weather_data
+.. autofunction:: module_name.read_sql
+.. autofunction:: module_name.get_rt_pv_data
+.. autofunction:: module_name.get_pv_meta
+.. autofunction:: module_name.get_weather_history
+.. autofunction:: module_name.check_weather_forecast
+.. autofunction:: module_name.get_weather_forecast_all_raw
+.. autofunction:: module_name.get_weather_forecast_all
+.. autofunction:: module_name.get_ss_agg
+.. autofunction:: module_name.get_slo_agg
+.. autofunction:: module_name.write_rt_pv_data
+.. autofunction:: module_name.write_rt_pv_forecast
+.. autofunction:: module_name.write_ss_agg_forecast
+.. autofunction:: module_name.write_slo_agg_forecast
+.. autofunction:: module_name.write_ss_agg_clean
+.. autofunction:: module_name.write_slo_agg_clean
+.. autofunction:: module_name.write_wforecast_evaluation
+.. autofunction:: module_name.get_weather_data
 
-Data Preparation Functions
+Data Preparation Functions (module_name: DataPrep)
 ~~~~~~~~~~~
 
-.. autofunction:: pv_forecaster_example.mask_night_hours
-.. autofunction:: pv_forecaster_example.get_interactions
-.. autofunction:: pv_forecaster_example.get_X
-.. autofunction:: pv_forecaster_example.imput_missing_values
-.. autofunction:: pv_forecaster_example.imput_missing_values_all
-.. autofunction:: pv_forecaster_example.imput_train
-.. autofunction:: pv_forecaster_example.imput_inference
-.. autofunction:: pv_forecaster_example.get_ss_agg
-.. autofunction:: pv_forecaster_example.get_slo_agg
-.. autofunction:: pv_forecaster_example.create_base_addresses
-.. autofunction:: pv_forecaster_example.create_requests
-.. autofunction:: pv_forecaster_example.get_coordinates
-.. autofunction:: pv_forecaster_example.add_weather_station
+.. autofunction:: module_name.mask_night_hours
+.. autofunction:: module_name.get_interactions
+.. autofunction:: module_name.get_X
+.. autofunction:: module_name.imput_missing_values
+.. autofunction:: module_name.imput_missing_values_all
+.. autofunction:: module_name.imput_train
+.. autofunction:: module_name.imput_inference
+.. autofunction:: module_name.get_ss_agg
+.. autofunction:: module_name.get_slo_agg
+.. autofunction:: module_name.create_base_addresses
+.. autofunction:: module_name.create_requests
+.. autofunction:: module_name.get_coordinates
+.. autofunction:: module_name.add_weather_station
 
 
-Forecasting Functions
+Forecasting Functions (module_name: Forecasting)
 ~~~~~~
 
-.. autofunction:: pv_forecaster_example.create_ts_idx
-.. autofunction:: pv_forecaster_example.mask_night_hours
-.. autofunction:: pv_forecaster_example.get_X_longterm
-.. autofunction:: pv_forecaster_example.get_X_shortterm
-.. autofunction:: pv_forecaster_example.get_forecasts
-.. autofunction:: pv_forecaster_example.inference
-.. autofunction:: pv_forecaster_example.get_ss_agg_forecasts
-.. autofunction:: pv_forecaster_example.get_slo_agg_forecasts
-.. autofunction:: pv_forecaster_example.add_PI_ss
-.. autofunction:: pv_forecaster_example.add_PI_slo
+.. autofunction:: module_name.create_ts_idx
+.. autofunction:: module_name.mask_night_hours
+.. autofunction:: module_name.get_X_longterm
+.. autofunction:: module_name.get_X_shortterm
+.. autofunction:: module_name.get_forecasts
+.. autofunction:: module_name.inference
+.. autofunction:: module_name.get_ss_agg_forecasts
+.. autofunction:: module_name.get_slo_agg_forecasts
+.. autofunction:: module_name.add_PI_ss
+.. autofunction:: module_name.add_PI_slo
 
 
-Evaluation Functions
+Evaluation Functions (module_name: Evaluation)
 ~~~~~~
 
-.. autofunction:: pv_forecaster_example.evaluate_ss_forecasts
-.. autofunction:: pv_forecaster_example.evaluate_slo_forecasts
-.. autofunction:: pv_forecaster_example.calc_errors
-.. autofunction:: pv_forecaster_example.calc_and_write_errors
+.. autofunction:: module_name.evaluate_ss_forecasts
+.. autofunction:: module_name.evaluate_slo_forecasts
+.. autofunction:: module_name.calc_errors
+.. autofunction:: module_name.calc_and_write_errors
 
 
 .. _run:
