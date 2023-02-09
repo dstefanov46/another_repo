@@ -4,4 +4,3 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "PV Forecaster"
-dynamic = ["version", "description"]
