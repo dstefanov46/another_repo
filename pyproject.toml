@@ -4,5 +4,4 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "PV Forecaster"
-authors = [{name = "Miha and Dimitar", email = "graziella@lumache"}]
 dynamic = ["version", "description"]
