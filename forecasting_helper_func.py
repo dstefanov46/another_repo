@@ -1,3 +1,9 @@
+"""
+PV Forecaster - Python app for prediction of PV generation across Slovenia.
+"""
+
+__version__ = "0.1.0"
+
 def get_season(ts_in):
 
     """
