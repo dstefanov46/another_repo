@@ -9,6 +9,7 @@ Modules
 Database Utility Functions
 ~~~~~~
 
+.. autofunction:: forecasting_helper_func.get_season
 .. autofunction:: pv_forecaster_example.read_sql
 .. autofunction:: pv_forecaster_example.get_rt_pv_data
 .. autofunction:: pv_forecaster_example.get_pv_meta
